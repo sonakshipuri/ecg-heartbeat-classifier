@@ -3,8 +3,6 @@
 ## Overview
 This project classifies ECG heartbeat signals into normal and abnormal categories using machine learning. It covers the complete pipeline from preprocessing to model evaluation.
 
----
-
 ## Dataset
 - **Source:** MIT-BIH Arrhythmia Dataset  
 - **Classes:**
@@ -13,8 +11,6 @@ This project classifies ECG heartbeat signals into normal and abnormal categorie
   - Ventricular  
   - Fusion  
   - Unknown  
-
----
 
 ## Workflow
 
@@ -38,15 +34,11 @@ Extracted statistical features:
 - Skewness, Kurtosis  
 - Energy, Peak metrics  
 
----
-
 ## Models Used
 - Logistic Regression  
 - Random Forest (features-based)  
 - Random Forest (raw signals)  
 - XGBoost  
-
----
 
 ## Evaluation Metrics
 - Accuracy  
@@ -54,15 +46,11 @@ Extracted statistical features:
 - ROC-AUC  
 - Confusion Matrix  
 
----
-
 ## Key Insights
 - Tree-based models outperform linear models  
 - Raw ECG signals perform better than extracted features  
 - XGBoost achieved the best results  
 - Macro F1 is important due to class imbalance  
-
----
 
 ## Tech Stack
 - Python  
@@ -70,8 +58,6 @@ Extracted statistical features:
 - Matplotlib, Seaborn  
 - Scikit-learn  
 - XGBoost  
-
----
 
 ## How to Run
 
