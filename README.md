@@ -60,10 +60,3 @@ Extracted statistical features:
 - Scikit-learn  
 - XGBoost  
 
-## How to Run
-
-```bash
-git clone <your-repo-link>
-cd <repo-name>
-pip install -r requirements.txt
-jupyter notebook
