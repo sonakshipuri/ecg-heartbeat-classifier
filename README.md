@@ -4,6 +4,7 @@
 This project classifies ECG heartbeat signals into normal and abnormal categories using machine learning. It covers the complete pipeline from preprocessing to model evaluation.
 
 ## Dataset
+- https://www.kaggle.com/datasets/shayanfazeli/heartbeat
 - **Source:** MIT-BIH Arrhythmia Dataset  
 - **Classes:**
   - Normal  
